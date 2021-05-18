@@ -19,7 +19,7 @@ namespace Guia_IoTHub
         private static readonly TransportType s_transportType = TransportType.Mqtt;
 
         //Variable donde se almacena la cadena de conexión del dispositivo alojado en el IoT Hub
-        private static string s_connectionString = "HostName=iothubguia.azure-devices.net;DeviceId=iotdevice;SharedAccessKey=4qQ2Fs5SEod/IAWA+dTTlMPXApX3FPJDE2VrxZO6bR8=";
+        private static string s_connectionString = "{Ingrese su cadena de conexión aquí}";
 
         static async Task Main(string[] args)
         {
